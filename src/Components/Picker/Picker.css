@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 6rem;
+    
 }
 #List{
     background-color: rgba(66, 60, 111,0.7);
@@ -48,14 +49,16 @@ transform: translateY(0.3em);
 }
 .Adder{
     display: flex;
+    width: 90%;
     justify-content: center;
-    align-items: center;
-    column-gap: 1rem;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 3px;
 }
 .Adder button{
     border: none;
     background: none;
-    font-size: 3rem;
+    font-size: 40px;
     color: #BBD444;
     text-align: center;
     cursor: pointer;
@@ -71,6 +74,7 @@ transform: translateY(0.3em);
 }
 #start button{
     margin-top: 4rem;
+    margin-bottom: 4rem;
     padding: 1rem;
     border:  7px solid  #FCD744;
     background: none;
@@ -124,6 +128,7 @@ transform: translateY(0.3em);
 #Winner{
     margin: 6rem;
     font-size: larger;
+    text-align: center;
 }
 #Options{
     display: flex;

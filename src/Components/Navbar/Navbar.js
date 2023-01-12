@@ -7,7 +7,7 @@ class Navbar extends React.Component{
         return(
             <div className="Navbar">
                 
-                <div id="Name"><img src={chef}></img><h1>Food Picker</h1></div>
+                <div id="Name"><img src={chef} alt="logo"></img><h1>Food Picker</h1></div>
                 <button>Check out my other projects!</button>
 
             </div>
