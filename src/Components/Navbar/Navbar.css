@@ -1,0 +1,29 @@
+.Navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid rgb(250, 244, 228);;
+    background-color: rgba(171, 171, 171, 0.176);
+    
+}
+#Name{
+    display: flex;
+    column-gap: 2vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+}
+#Name img{
+    width: 70px;
+    height: auto;
+}
+.Navbar button{
+    background:none;
+    border: none;
+    color:rgb(250, 244, 228);;
+    font-size: large;
+    cursor:pointer;
+    margin-right: 5vw;
+}
+

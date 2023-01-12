@@ -1,0 +1,179 @@
+.Picker{
+    
+}
+.Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+#List{
+    background-color: rgba(66, 60, 111,0.7);
+    border-radius: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 1rem;
+    justify-content:center;
+    list-style-type: none;
+    row-gap: 2rem;
+    column-gap: 2rem;    
+}
+#List li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 9rem;
+    column-gap: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: rgba(38, 39, 67,0.4);
+    box-shadow: 0px 0.4em 5px rgba(0,0,0,0.25);
+    
+}
+#List li:hover{
+box-shadow: none;
+transform: translateY(0.3em);
+
+}
+#List li button{
+   border: none;
+    background: none;
+    font-size: 3rem;
+    color: #FA7853;
+    cursor: pointer;
+}
+.Adder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+.Adder button{
+    border: none;
+    background: none;
+    font-size: 3rem;
+    color: #BBD444;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0.3rem;
+}
+.Adder input{
+    padding: 1rem;
+    font-size: large;
+    border: 5px solid  rgba(66, 60, 111,0.7);
+    border-radius: 2rem;
+    background-color:rgb(250, 244, 228);
+    color: rgba(38, 39, 67,1);
+}
+#start button{
+    margin-top: 4rem;
+    padding: 1rem;
+    border:  7px solid  #FCD744;
+    background: none;
+    border-radius: 2rem;
+    background-color: #FAF4E4;
+    font-size: large;
+    color: rgba(66, 60, 111,1);
+    box-shadow: 0px 0.4em 5px rgba(0,0,0,0.25);
+    cursor: pointer;
+    
+}
+#start button:hover{
+    box-shadow: none;
+    background-color: #FCD744;
+    transform: translateY(0.2em);
+}
+#Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+#Cards button{
+    margin: 1rem;
+    background:rgba(66, 60, 111,0.7);
+    border:10px solid rgb(255, 172, 62);
+    color:#FAF4E4;
+    font-size: 300%;
+    border-radius: 2rem;
+    padding: 2rem;
+    min-width: 300px;
+    width: 40vw;
+    height: 40vh;
+    cursor: pointer;
+    box-shadow: 0px 0.4em 5px rgba(255, 255, 255, 0.1);
+}
+#Cards button:hover{
+   color: rgba(66, 60, 111.1);
+   background: rgb(255, 172, 62);
+   transform: translateY(0.2em);
+   box-shadow: none;
+}
+#Results{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Winner{
+    margin: 6rem;
+    font-size: larger;
+}
+#Options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+}
+#Options button{
+    padding: 2rem;
+    border:  7px solid  #FCD744;
+    background: none;
+    border-radius: 2rem;
+    color:rgb(250, 244, 228);
+    background-color: #FAF4E4;
+    font-size: larger;
+    color: rgba(66, 60, 111,1);
+    box-shadow: 0px 0.4em 5px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+#Options button:hover{
+    box-shadow: none;
+    background-color: #FCD744;
+    transform: translateY(0.2em);
+}
+#Map{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 4rem;
+    margin: 3rem;
+}
+#Map iframe{
+    width: 80vw;
+    height: 80vh;
+}
+#Map button{
+    padding: 1rem;
+    border:  7px solid  #FCD744;
+    background: none;
+    border-radius: 2rem;
+    background-color: #FAF4E4;
+    font-size: large;
+    color: rgba(66, 60, 111,1);
+    box-shadow: 0px 0.4em 5px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+.Selection {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
