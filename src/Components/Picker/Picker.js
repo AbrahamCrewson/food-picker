@@ -117,6 +117,7 @@ class Picker extends React.Component{
         document.getElementById('Results').style.display= 'none';
         document.getElementById('Map').style.display= 'none';
         document.getElementById('Menu').style.display = 'flex';
+        this.setState({winner:''});
     }
     async map(){
        
@@ -124,7 +125,7 @@ class Picker extends React.Component{
         document.getElementById('frame').src = src;
         document.getElementById('Results').style.display= 'none';
         document.getElementById('Map').style.display= 'flex';
-        this.setState({winner:''});
+        
         
        
     }
@@ -162,6 +163,7 @@ class Picker extends React.Component{
                     <div id="Options"><button onClick={this.restart}>Make a new food choice</button><button onClick={this.map}>Find {this.state.winner} places near you</button></div>
                 </div>
                 <div id="Map">
+                        <button onClick={this.map}>Map not showing? RELOAD</button>
                         <Map/>
                         <button onClick={this.restart}>Nothing Near By? Make A New Selection</button>
                 </div>
