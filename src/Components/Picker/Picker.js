@@ -122,6 +122,7 @@ class Picker extends React.Component{
     async map(){
        
         const src = `https://www.mapquest.com/search/${this.state.winner}`;
+        document.getElementById('map-link').href= src;
         document.getElementById('frame').src = src;
         document.getElementById('Results').style.display= 'none';
         document.getElementById('Map').style.display= 'flex';
@@ -164,6 +165,7 @@ class Picker extends React.Component{
                 </div>
                 <div id="Map">
                         <button onClick={this.map}>Map not showing? RELOAD</button>
+                        <a id="map-link" href=""><h3>Embedded Map not available for mobile users. Press here to go to MapQuest</h3></a>
                         <Map/>
                         <button onClick={this.restart}>Nothing Near By? Make A New Selection</button>
                 </div>
