@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/food-picker/static/css/main.c7729101.css",
-    "main.js": "/food-picker/static/js/main.81322c2e.js",
+    "main.css": "/food-picker/static/css/main.c69a0228.css",
+    "main.js": "/food-picker/static/js/main.9ed1a0c2.js",
     "static/js/787.326e7f0a.chunk.js": "/food-picker/static/js/787.326e7f0a.chunk.js",
     "static/media/chef.png": "/food-picker/static/media/chef.9906cd97e578784f0e3a.png",
     "index.html": "/food-picker/index.html",
-    "main.c7729101.css.map": "/food-picker/static/css/main.c7729101.css.map",
-    "main.81322c2e.js.map": "/food-picker/static/js/main.81322c2e.js.map",
+    "main.c69a0228.css.map": "/food-picker/static/css/main.c69a0228.css.map",
+    "main.9ed1a0c2.js.map": "/food-picker/static/js/main.9ed1a0c2.js.map",
     "787.326e7f0a.chunk.js.map": "/food-picker/static/js/787.326e7f0a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7729101.css",
-    "static/js/main.81322c2e.js"
+    "static/css/main.c69a0228.css",
+    "static/js/main.9ed1a0c2.js"
   ]
 }
