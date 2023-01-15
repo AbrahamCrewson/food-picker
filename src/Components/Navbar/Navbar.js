@@ -8,7 +8,7 @@ class Navbar extends React.Component{
             <div className="Navbar">
                 
                 <div id="Name"><img src={chef} alt="logo"></img><h1>Food Picker</h1></div>
-                <button>Check out my other projects!</button>
+                <a href ="https://abrahamcrewson.github.io/portfolio">Check out my other projects!</a>
 
             </div>
         )
